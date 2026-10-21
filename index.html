@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Alan Liu Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="brand">
+            <img src="./CS_img.avif" alt="Alan Liu profile photo">
+            <h1>I'm Alan Liu</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>Hello.</h2>
+        <p>
+            My name is Alan Liu and I'm a Computer Science student at UAB. I'm going to graduate
+            in Spring 2027. Right now I'm teaching myself web development, starting with HTML and CSS
+            and then moving on to JavaScript and other stuff. My goal is to get an internship in
+            software development.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+
+        <div class="card-grid">
+            <div class="card">
+                <h3>Front End Development</h3>
+                <p>
+                    I know HTML and CSS, and I'm using them to build and style this website.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Programming Languages</h3>
+                <p>
+                    I also write code in Python, Java, and C for my coursework and personal projects.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="hobbies">
+        <h2>Hobbies</h2>
+        <ol>
+            <li>Coding little projects</li>
+            <li>Reading</li>
+            <li>Playing board games and video games</li>
+        </ol>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+
+        <div class="card">
+            <h3>Text Based RPG</h3>
+            <p>
+                A text based RPG where you play as a hero on a journey to save the princess. Along the
+                way you get to make different choices, and depending on what you pick the story goes
+                in a different direction. There are a bunch of different endings depending on your choices.
+            </p>
+            <a href="https://github.com/alanliu2004">Link to Project</a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Get In Touch</h2>
+        <p>Fill out the form below and I'll get back to you.</p>
+
+        <form action="https://formsubmit.co/aliu3@uab.edu" method="POST">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+
+        <p class="github-link">
+            Or find me on <a href="https://github.com/alanliu2004">GitHub</a>.
+        </p>
+    </section>
+
+    <footer>
+        <p>Copyright 2026 Alan Liu</p>
+    </footer>
+
+</body>
+</html>
